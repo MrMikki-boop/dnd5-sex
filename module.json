@@ -1,0 +1,61 @@
+{
+  "title": "💘 Руководство по сексу",
+  "id": "omar0275-dnd5-sex",
+  "description": "",
+  "coreVersion": "10.291",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  },
+  "url": "https://boosty.to/omar0275",
+  "version": "0.1.0",
+  "packs": [
+    {
+      "name": "omar0275-dnd5-sex-macros",
+      "label": "Секс: Полезные макросы",
+      "type": "Macro",
+      "path": "packs/macros.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "omar0275-dnd5-sex-items",
+      "label": "Секс: Предметы, особенности и пр.",
+      "type": "Item",
+      "path": "packs/items.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "omar0275-dnd5-sex-tables",
+      "label": "Секс: Таблицы",
+      "type": "RollTable",
+      "path": "packs/tables.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "omar0275-dnd5-sex-journals",
+      "label": "Секс: Справочник",
+      "type": "JournalEntry",
+      "path": "packs/journals.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    }
+  ],
+    "relationships": {
+      "systems": [
+        {
+          "id": "dnd5e",
+          "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+          "compatibility": {
+            "verified": "2.1.5"
+          }
+        }
+      ]
+    }
+}
