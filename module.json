@@ -8,7 +8,7 @@
     "verified": "10.291"
   },
   "url": "https://boosty.to/omar0275",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifest": "https://raw.githubusercontent.com/omar-dnd/dnd5-sex/main/module.json",
   "download": "https://github.com/omar-dnd/dnd5-sex/archive/refs/heads/main.zip",
   "authors": [
@@ -22,7 +22,7 @@
   ],
   "packs": [
     {
-      "name": "omar0275-dnd5-sex-macros",
+      "name": "macros",
       "label": "Секс: Полезные макросы",
       "type": "Macro",
       "path": "packs/macros.db",
@@ -31,8 +31,8 @@
       "flags": {}
     },
     {
-      "name": "omar0275-dnd5-sex-items",
-      "label": "Секс: Предметы, особенности и пр.",
+      "name": "items",
+      "label": "Секс: Предметы, особенности и другое",
       "type": "Item",
       "path": "packs/items.db",
       "system": "dnd5e",
@@ -40,7 +40,7 @@
       "flags": {}
     },
     {
-      "name": "omar0275-dnd5-sex-tables",
+      "name": "tables",
       "label": "Секс: Таблицы",
       "type": "RollTable",
       "path": "packs/tables.db",
@@ -49,7 +49,7 @@
       "flags": {}
     },
     {
-      "name": "omar0275-dnd5-sex-journals",
+      "name": "journals",
       "label": "Секс: Справочник",
       "type": "JournalEntry",
       "path": "packs/journals.db",
