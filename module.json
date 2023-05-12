@@ -8,7 +8,7 @@
     "verified": "10.291"
   },
   "url": "https://boosty.to/omar0275",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "manifest": "https://raw.githubusercontent.com/omar-dnd/dnd5-sex/main/module.json",
   "download": "https://github.com/omar-dnd/dnd5-sex/archive/refs/heads/main.zip",
   "authors": [
@@ -22,28 +22,37 @@
   ],
   "packs": [
     {
-      "name": "macros",
-      "label": "Секс: Макросы",
-      "type": "Macro",
-      "path": "packs/macros.db",
+      "name": "actions",
+      "label": "Секс: Действия",
+      "type": "Item",
+      "path": "packs/actions.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "backgrounds",
+      "label": "Секс: Происхождение",
+      "type": "Item",
+      "path": "packs/backgrounds.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "features",
+      "label": "Секс: Особенности",
+      "type": "Item",
+      "path": "packs/features.db",
       "system": "dnd5e",
       "private": false,
       "flags": {}
     },
     {
       "name": "items",
-      "label": "Секс: Предметы, особенности и другое",
+      "label": "Секс: Предметы",
       "type": "Item",
       "path": "packs/items.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "tables",
-      "label": "Секс: Таблицы",
-      "type": "RollTable",
-      "path": "packs/tables.db",
       "system": "dnd5e",
       "private": false,
       "flags": {}
@@ -53,6 +62,24 @@
       "label": "Секс: Справочник",
       "type": "JournalEntry",
       "path": "packs/journals.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "macros",
+      "label": "Секс: Макросы",
+      "type": "Macro",
+      "path": "packs/macros.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "tables",
+      "label": "Секс: Таблицы",
+      "type": "RollTable",
+      "path": "packs/tables.db",
       "system": "dnd5e",
       "private": false,
       "flags": {}
