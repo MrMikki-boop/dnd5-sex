@@ -8,7 +8,7 @@
     "verified": "10.291"
   },
   "url": "https://boosty.to/omar0275",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "manifest": "https://raw.githubusercontent.com/omar-dnd/dnd5-sex/main/module.json",
   "download": "https://github.com/omar-dnd/dnd5-sex/archive/refs/heads/main.zip",
   "authors": [
@@ -32,7 +32,7 @@
     },
     {
       "name": "backgrounds",
-      "label": "Секс: Происхождение",
+      "label": "Секс: Происхождения",
       "type": "Item",
       "path": "packs/backgrounds.db",
       "system": "dnd5e",
